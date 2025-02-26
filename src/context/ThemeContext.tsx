@@ -3,7 +3,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
 // Create a context
-const ThemeContext = createContext<any>(null);
+const ThemeContext = createContext<unknown>(null);
 
 // Custom hook to use the theme context
 export const useTheme = () => useContext(ThemeContext);
